@@ -10,14 +10,13 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>UNH, Durham, NH 03857</p>
-    <p>pulkitkumar.dubey[at]unh.edu</p>
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am Pulkit, PhD candidate at UNH. I utilize techniques from applied mathematics and high-performance computing towards problems in fluid dynamics. My work spans rotating flows, surface tension driven instabilities, orientation dynamics of spheroids and wall-bounded turbulence. 
+Hi, I am Pulkit, [PhD candidate at UNH](https://ceps.unh.edu/integrated-applied-mathematics/faculty-staff-directory/graduate-students). I utilize techniques from applied mathematics and high-performance computing towards problems in fluid dynamics. My work spans rotating flows, surface tension driven instabilities, orientation dynamics of spheroids and wall-bounded turbulence. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
