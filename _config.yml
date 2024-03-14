@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: P. Dubey # the website title (if blank, full name will be used instead)
+title: Pulkit K. Dubey # the website title (if blank, full name will be used instead)
 first_name: Pulkit
 middle_name: K.
 last_name: Dubey
@@ -40,7 +40,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: flase
 
 # -----------------------------------------------------------------------------
 # Layout
