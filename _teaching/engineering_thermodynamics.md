@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Engineering Thermodynamics
-description: a project with a background image
+description: Undergraduate course
 img: assets/img/thermo/1.jpg
 importance: 1
 category: work
