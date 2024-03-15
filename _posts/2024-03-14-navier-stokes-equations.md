@@ -3,7 +3,7 @@ layout: post
 title: The Navier Stokes Equations
 date: 2024-03-14 23:37:00
 description: A brief derivation based on Chapter 2 from Chandrashekhar's book
-tags: fluid dynamics
+tags: fluid_dynamics
 categories: sample-posts
 ---
 
