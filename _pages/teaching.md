@@ -2,7 +2,7 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: Courses I've taugh as a TA.
+description: Courses I've taught as a TA.
 nav: true
 nav_order: 3
 display_categories: [mechanics, computing]
