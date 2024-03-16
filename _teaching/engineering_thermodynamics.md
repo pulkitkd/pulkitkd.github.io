@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Engineering Thermodynamics
 description: Undergraduate course
 img: assets/img/thermo/1.jpg
