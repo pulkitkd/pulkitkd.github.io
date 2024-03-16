@@ -10,5 +10,5 @@ related_publications: false
 
 Undergraduate course in Engineering Thermodynamics focusing on applications of Laws of Thermodynamics to engineering devices such as engines and heat pumps... 
 
-[sample pdf](/assets/pdf/example_pdf.pdf)
+[Notes](https://universitysystemnh-my.sharepoint.com/:b:/g/personal/pkd1005_usnh_edu/EX4Cn9uZG5dJjSSGuyNw3ccBrXNLgq-DMLKEw73JwANJTA?e=h9hC2h)
 
