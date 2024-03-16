@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Mechanics of materials
 description: Undergraduate course in mechanics of materials.
 importance: 2
