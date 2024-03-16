@@ -17,7 +17,7 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_teaching = site.teaching | where: "category", category %}
+  {% assign categorized_teaching = site.projects | where: "category", category %}
   {% assign sorted_teaching = categorized_teaching | sort: "importance" %}
   <!-- Generate cards for each teaching resource -->
   {% if page.horizontal %}
