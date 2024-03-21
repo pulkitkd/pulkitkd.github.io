@@ -2,12 +2,13 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: Courses I've taught as a TA.
+description: courses I've taught as a TA.
 nav: true
 nav_order: 3
 display_categories: 
 horizontal: false
 ---
+
 
 
 * [Engineering Thermodynamics](/teaching/engineering_thermodynamics)
