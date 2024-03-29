@@ -9,7 +9,7 @@ display_categories:
 horizontal: false
 ---
 
-
+Mechanics and computation
 
 * [Engineering Thermodynamics](/teaching/engineering_thermodynamics)
 * Fluid Dynamics
