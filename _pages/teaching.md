@@ -12,6 +12,6 @@ horizontal: false
 Mechanics and computation
 
 * [Engineering Thermodynamics](/teaching/engineering_thermodynamics)
-* Fluid Dynamics
+* [Fluid Dynamics](/teaching/fluid_dynamics)
 * Introduction to Engineering Computing
 * Mechanics of Materials
