@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title: Fluid Dynamics
-description: Notes from my graduate courses in Fluid Dynamics.
-importance: 2
-category: 
+description: Some notes from my graduate courses in Fluid Dynamics.
+importance: 1
+category: TA
 related_publications: false
 img: assets/img/1.jpg
 ---
