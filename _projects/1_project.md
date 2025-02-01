@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Turbulent Flows
+description: Effects of temperature dependent viscosity 
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Research
 related_publications: true
 ---
 
