@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Pulkit K. Dubey # the website title (if blank, full name will be used instead)
+title: Pulkit Dubey # the website title (if blank, full name will be used instead)
 first_name: Pulkit
-middle_name: K.
+middle_name: 
 last_name: Dubey
 email: pulkitkumar.dubey@usnh.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
