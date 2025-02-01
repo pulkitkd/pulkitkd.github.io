@@ -4,7 +4,7 @@ title: Turbulent Flows
 description: Effects of temperature dependent viscosity 
 img: assets/img/turb_streaks.png
 importance: 1
-category: work
+category: 
 related_publications: false
 ---
 
