@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: from my graduate and undergraduate research.
-nav: true
+nav: false
 nav_order: 4
 display_categories: []
 horizontal: false
