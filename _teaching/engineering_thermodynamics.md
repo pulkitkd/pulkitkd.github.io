@@ -12,3 +12,5 @@ Undergraduate course in Engineering Thermodynamics focusing on applications of L
 
 [Notes](https://universitysystemnh-my.sharepoint.com/:b:/g/personal/pkd1005_usnh_edu/EX4Cn9uZG5dJjSSGuyNw3ccBrXNLgq-DMLKEw73JwANJTA?e=h9hC2h)
 
+
+

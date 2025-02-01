@@ -11,6 +11,6 @@ horizontal: false
 
 Turbulent flows with temperature dependent viscosity-
 
-A study of turbulent flow statistics in the presence of variable viscosity. [More...](/_projects/1_project.md)
+A study of turbulent flow statistics in the presence of variable viscosity. [More...](/projects/1_project.md)
 
 
