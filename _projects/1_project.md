@@ -10,5 +10,5 @@ related_publications: true
 
 This is very good work. Look , some turb streaks
 
-![turbulent streaks](/assets/img/turb_streaks.png.jpg)
+![turbulent streaks](/assets/img/turb_streaks.png)
 
