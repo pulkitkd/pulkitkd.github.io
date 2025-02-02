@@ -31,8 +31,10 @@ We obtain interesting trajectory patterns for the spheroids and the conditions u
     Trajectories of the orientation vector of the spheroid on the unit sphere.
 </div>
 
-
 <p>
     This work was presented at <a href="https://www.apsdfd2022.org/" target="_blank">APS-DFD 2022</a>.  
     You can <a href="https://meetings.aps.org/Meeting/DFD22/Session/L26.5" target="_blank">view the abstract here</a>.
 </p>
+
+Trajectory computations and plotting were done in Mathematica.
+
