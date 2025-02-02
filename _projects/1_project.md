@@ -34,7 +34,7 @@ The effects of viscosity stratification can be peculiar. The image below shows t
 
 Viscosity stratification is common in several engineering applications such as cooling systems in electronic devices. While a complete numerical simulation remains expensive, our reduced order models reduce computation costs by more than 10x, enabling a reliable method for rapid development of such devices.
 
-
+This work uses ![Dedalus](https://dedalus-project.org/) , a spectral method based PDE solver written in Python that is ideal for solving systems of equations over simpler geometries.
 
 
 
