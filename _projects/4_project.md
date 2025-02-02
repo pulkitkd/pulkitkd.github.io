@@ -31,10 +31,8 @@ Surface tension can cause a liquid column to breakup into droplets. This is know
 
 We further developed these studies on the stable and unstable oscillations of liquid columns to establish an intricate picture of instabilities in a liquid column. We then compare the role of surface tension in liquid jets to that of gravity in stellar gas clouds and find susprisingly similar results. 
 
-The results were published in the Journal of Fluid Mechanics. You can view the ArXiV article here.
-
 <p>
-    The results were published in the Journal of Fluid Mechanics. <a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/linear-stability-of-a-rotating-liquid-column-revisited/C6AFE765CD29DA3EF355E38A759EE74C" target="_blank">(link))</a>.  
+    The results were published in the Journal of Fluid Mechanics. <a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/linear-stability-of-a-rotating-liquid-column-revisited/C6AFE765CD29DA3EF355E38A759EE74C" target="_blank">(link)</a>.  
     You can <a href="https://arxiv.org/pdf/2107.06498" target="_blank">view the ArXiV article here</a>.
 </p>
 
