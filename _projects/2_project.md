@@ -2,37 +2,19 @@
 layout: page
 title: 2D Turbulence with Neural Operators
 description: Chaining together numerical and data-driven methods 
-img: assets/img/turb_streaks.png
+img: assets/img/FNO-1.png
 importance: 1
 category: 
 related_publications: false
 ---
 
-Viscosity of liquids varies significantly with temperature, altering key features in turbulent flows. Direct Numerical Simulations (DNS) of such flows, however,
-can be prohibitively expensive, spanning weeks on supercomputing clusters. We are using reduced order models and analytical methods to efficiently compute statistics in 
-wall-bounded viscosity-stratified turbulence. 
+Direct numerical simulations (DNS) are an accurate but expensive method of simulating fluid flows. Their cost often precludes their use in many engineering applications. Data-driven technologies, on the other hand, can be much faster but struggle to maintain their accuracy while simulating chaotic systems. In this work we first train Fourier Neural Operators (FNOs) using simulation data and then use FNO in tandem with DNS to achieve accurate simulations at nearly half the computational cost. 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/vsf_micro-2.png" title="Governing equations" class="img-fluid rounded z-depth-1 w-100" %}
-    </div>
-</div>
-<div class="caption text-center">
-    System of equations for viscosity stratified flows. The plot on the right shows that viscosity of water can vary by a factor of two or more under commonly occuring temperature differences.
-</div>
+![FNO_comparisons](/assets/img/FNO-1.png)
 
-The effects of viscosity stratification can be peculiar. The image below shows that there is an excess of turbulent kinetic energy near the more viscous side of the channel relative to the less viscous side. 
+This work was presented at ![SC24](https://sc24.supercomputing.org/program/proceedings-archives/). You can ![view the paper on ArXiV](https://arxiv.org/pdf/2409.14660)
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/vsf_micro.png" title="Turbulent Kinetic Energy" class="img-fluid rounded z-depth-1 w-100" %}
-    </div>
-</div>
-<div class="caption text-center">
-    Turbulent Kinetic Energy is subdued near the top (less viscous) wall and increased near the bottom (more viscous) wall.
-</div>
 
-Viscosity stratification is common in several engineering applications such as cooling systems in electronic devices. We are studying its consequences towards heat transfer in such systems.
 
 
 

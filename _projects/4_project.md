@@ -32,7 +32,7 @@ The effects of viscosity stratification can be peculiar. The image below shows t
     Turbulent Kinetic Energy is subdued near the top (less viscous) wall and increased near the bottom (more viscous) wall.
 </div>
 
-Viscosity stratification is common in several engineering applications such as cooling systems in electronic devices. We are studying its consequences towards heat transfer in such systems.
+Viscosity stratification is common in several engineering applications such as cooling systems in electronic devices. While a complete numerical simulation remains expensive, our reduced order models reduce computation costs by more than 10x, enabling a reliable method for rapid development of such devices.
 
 
 
