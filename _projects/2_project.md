@@ -12,7 +12,16 @@ Direct numerical simulations (DNS) are an accurate but expensive method for solv
 
 We demostrate a machine learning workflow that alternates between FNO and the PDE solver by using the output of FNO as input to the PDE solver and vice versa. Trade-off between error accumulation over Lyapunov time scales and computational efficiency favored hybrid approaches over purely traditional or data-driven approaches. The image shown below emphasizes the accuracy of hybrid approaches over purely data-driven methods.
 
-![FNO_comparisons](/assets/img/FNO-1.png)
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/FNO-1.png" class="img-fluid rounded z-depth-1 w-100" %}
+    </div>
+</div>
+<div class="caption text-center">
+    Time evolution of vorticity fields from DNS , FNO and hybrid approaches. 
+</div>
+
 
 This work was presented at ![SC24](https://sc24.supercomputing.org/program/proceedings-archives/). You can ![view the paper on ArXiV](https://arxiv.org/pdf/2409.14660)
 
