@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Viscosity Stratified Turbulence
-description: Effects of temperature dependent viscosity 
+title: 2D Turbulence with Neural Operators
+description: Chaining together numerical and data-driven methods 
 img: assets/img/turb_streaks.png
 importance: 1
 category: 
