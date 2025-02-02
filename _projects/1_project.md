@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Viscosity stratified turbulence
+title: Viscosity Stratified Turbulence
 description: Effects of temperature dependent viscosity 
 img: assets/img/turb_streaks.png
 importance: 1
@@ -14,7 +14,7 @@ wall-bounded viscosity-stratified turbulence.
 
 The effects of viscosity stratification can be peculiar. The image below shows that there is an excess of turbulent kinetic energy near the more viscous side of the channel relative to the less viscous side. 
 
-![vsf_TKE](/assets/pdf/vsf_micro.pdf)
+![vsf_TKE](/assets/img/vsf_micro.png)
 
 
 
