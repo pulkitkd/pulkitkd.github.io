@@ -23,7 +23,10 @@ We demostrate a machine learning workflow that alternates between FNO and the PD
 </div>
 
 
-This work was presented at ![SC24](https://sc24.supercomputing.org/program/proceedings-archives/). You can ![view the paper on ArXiV](https://arxiv.org/pdf/2409.14660)
+<p>
+    This work was presented at <a href="https://sc24.supercomputing.org/program/proceedings-archives/" target="_blank">SC24</a>.  
+    You can <a href="https://arxiv.org/pdf/2409.14660" target="_blank">view the paper on ArXiV</a>.
+</p>
 
 Particle-resolved numerical simulations were performed in C++ and PyTorch’s neural operator library was used for FNO.
 
