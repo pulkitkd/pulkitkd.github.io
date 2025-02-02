@@ -17,15 +17,15 @@ The effects of viscosity stratification can be peculiar. The image below shows t
 <!-- ![vsf_TKE](/assets/img/vsf_micro.png "Turbulent Kinetic Energy near the top and bottom walls of viscosity stratified channel") -->
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/vsf_micro.png" title="Turbulent Kinetic Energy" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/vsf_micro.png" title="Turbulent Kinetic Energy" class="img-fluid rounded z-depth-1 w-100" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-center">
     Turbulent Kinetic Energy near the top and bottom walls of viscosity stratified channel.
 </div>
 
-
+Viscosity stratification is common in several engineering applications such as cooling systems in electronic devices. We are exploring the consequences of viscosity stratification to heat transfer in such systems. 
 
 
 
