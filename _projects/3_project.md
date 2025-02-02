@@ -32,4 +32,7 @@ We obtain interesting trajectory patterns for the spheroids and the conditions u
 </div>
 
 
-This work was presented at APS-DFD 2022
+<p>
+    This work was presented at <a href="https://www.apsdfd2022.org/" target="_blank">APS-DFD 2022</a>.  
+    You can <a href="https://meetings.aps.org/Meeting/DFD22/Session/L26.5" target="_blank">view the abstract here</a>.
+</p>
