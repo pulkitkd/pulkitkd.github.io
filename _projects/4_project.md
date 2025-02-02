@@ -26,7 +26,9 @@ Surface tension can cause a liquid column to breakup into droplets. This is know
     </div>
 </div>
 <div class="caption text-center">
-    The Rayleigh-Plateau instability in a rotating jet is even more severe.
+    The Rayleigh-Plateau instability in a rotating jet.
 </div>
+
+We further developed these studies on the stable and unstable oscillations of liquid columns to establish an intricate picture of instabilities in a liquid column. We then compare the role of surface tension in liquid jets to that of gravity in stellar gas clouds and find susprisingly similar results. 
 
 
