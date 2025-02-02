@@ -14,7 +14,16 @@ wall-bounded viscosity-stratified turbulence.
 
 The effects of viscosity stratification can be peculiar. The image below shows that there is an excess of turbulent kinetic energy near the more viscous side of the channel relative to the less viscous side. 
 
-![vsf_TKE](/assets/img/vsf_micro.png)
+<!-- ![vsf_TKE](/assets/img/vsf_micro.png "Turbulent Kinetic Energy near the top and bottom walls of viscosity stratified channel") -->
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/vsf_micro.png" title="Turbulent Kinetic Energy" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Turbulent Kinetic Energy near the top and bottom walls of viscosity stratified channel.
+</div>
 
 
 
