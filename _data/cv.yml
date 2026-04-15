@@ -11,7 +11,7 @@
 - title: Summary
   type: list
   contents:
-    - PhD in Applied Mathematics with expertise in computational mathematics, physics simulations, and numerical optimization. Experienced in developing high-performance software frameworks in Python, Julia, and C++, with working knowledge of MPI, CUDA, and PyTorch for scalable parallel computing over HPC clusters. Proven expertise in integrating neural networks with physics-based solvers.
+    - PhD in Applied Mathematics with focus on numerical simulations, optimization and machine learning. Experienced with development in Python, Julia, and C++ in HPC environments. Familiar with climate emulators (NeuralGCM, LUCIE, ACE2-ERA5) and differentiable physics frameworks. Strong background in fluid dynamics, turbulence, and reduced-order modeling.
 
 - title: Education
   type: time_table
