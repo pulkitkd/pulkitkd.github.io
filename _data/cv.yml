@@ -2,96 +2,117 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Pulkit Dubey
+    - name: Location
+      value: Santa Cruz, CA
+    - name: Email
+      value: pulkit.kumar.dubey@gmail.com
+
+- title: Summary
+  type: list
+  contents:
+    - PhD in Applied Mathematics with expertise in computational mathematics, physics simulations, and numerical optimization. Experienced in developing high-performance software frameworks in Python, Julia, and C++, with working knowledge of MPI, CUDA, and PyTorch for scalable parallel computing over HPC clusters. Proven expertise in integrating neural networks with physics-based solvers.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Applied Mathematics
+      institution: University of New Hampshire, Durham, NH
+      year: 2020 - 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - GPA 4.0/4.0
+    - title: M.S. (Engg.), Engineering Mechanics and Applied Mathematics
+      institution: Jawaharlal Nehru Centre for Advanced Scientific Research, Bangalore, India
+      year: 2019
+    - title: B.E. (Hons.), Mechanical Engineering
+      institution: BITS - Pilani, Pilani, India
+      year: 2015
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher
+      institution: University of California, Santa Cruz
+      year: 2025 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Optimal control of chaotic systems using differentiable neural emulators. Developing gradient-based optimization pipelines in PyTorch and JAX on top of ML weather emulators (LUCIE, NeuralGCM, ACE2-ERA5), with Backpropagation-Through-Time and gradient checkpointing for long-horizon optimization on HPC.
+        - ML data infrastructure and emulator training for climate applications. Built end-to-end pipelines for ERA5 reanalysis data; trained and fine-tuned an SFNO-based neural weather model, extending its variable set and validating checkpoint quality against held-out fields.
+
+    - title: Doctoral Researcher
+      institution: University of New Hampshire, Durham, NH
+      year: 2020 - 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Reduced-order modeling of turbulent flows. Developed scalable Python spectral simulation frameworks for high-dimensional turbulent flow data; leveraged asymptotic analysis to achieve a 10× performance improvement. Presented at APS-DFD 2024; manuscript in preparation for the Journal of Fluid Mechanics.
+        - Accelerating numerical solvers with neural networks. Designed a C++/CUDA framework that interleaves a high-fidelity CFD solver with a PyTorch neural operator — capping the network horizon at the chaos limit to halve wall-clock time while preserving accuracy and keeping the pipeline differentiable. Presented at SC24.
+        - Teaching assistant for undergraduate engineering courses. Delivered lectures, mentored students, and built an automated grading system that streamlined faculty workload. Recognized with competitive summer fellowships for outstanding TAs.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Intern, Airbus Chair for Mathematics of Complex Systems
+      institution: TIFR - Center for Applicable Mathematics, Bangalore, India
+      year: 2016
       description:
+        - Developed a finite-volume PDE solver in C for the compressible Navier-Stokes equations, with a Git-based workflow for version control and collaboration.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Graduate Engineer Trainee
+      institution: Tata Motors, Pune, India
+      year: 2015 - 2016
+      description:
+        - FEM-based thermal and structural studies of IC engine crankshaft deflections under extreme loads in ANSYS and CATIA. Earned Siemens PLM certification.
 
-- title: Open Source Projects
+- title: Selected Publications
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Quasilinear simulations of viscosity-stratified flows
+      year: 2025
+      description:
+        - Dubey, P., Govindarajan, R., and Chini, G. In preparation for the Journal of Fluid Mechanics.
+    - title: Fourier neural operators for spatiotemporal dynamics in two-dimensional turbulence
+      year: 2024
+      description:
+        - Atif, M., Dubey, P., et al. arXiv:2409.14660.
+    - title: Linear stability of a rotating liquid column revisited
+      year: 2022
+      description:
+        - Dubey, P., Roy, A., and Subramanian, G. Journal of Fluid Mechanics 933, A55. doi:10.1017/jfm.2021.1109.
+    - title: Novel design for a wideband piezoelectric vibrational energy harvester (P-VEH)
+      year: 2015
+      description:
+        - Kaushal, S., Dubey, P., et al. 19th International Symposium on VLSI Design and Test, IEEE.
 
-- title: Honors and Awards
+- title: Honors and Recognition
   type: time_table
   contents:
-    - year: 1921
+    - year: 2023, 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Summer fellowship for outstanding teaching assistants, University of New Hampshire
+    - year: 2023
       items:
-        - Max Planck Medal
+        - Referee for the Journal of Fluid Mechanics
+    - year: 2022
+      items:
+        - Fellow, Boulder Summer School in Condensed Matter Physics
+    - year: 2016
+      items:
+        - Selected for the Airbus Chair on Mathematics of Complex Systems
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Conferences
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - APS Division of Fluid Dynamics (2022, 2023, 2024)
+    - SC24 — International Conference for High Performance Computing, Networking, Storage, and Analysis
+    - Boulder Summer School for Condensed Matter Physics (2022)
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Languages & frameworks
+      items:
+        - Python, Julia, C++, C, MATLAB
+        - PyTorch, JAX
+    - title: High-performance & scientific computing
+      items:
+        - MPI, CUDA, HPC clusters
+        - Spectral methods, finite-volume solvers, asymptotic analysis
+    - title: Machine learning for science
+      items:
+        - Neural operators and weather emulators (SFNO, LUCIE, NeuralGCM, ACE2-ERA5)
+        - Differentiable physics, backpropagation-through-time, gradient checkpointing
