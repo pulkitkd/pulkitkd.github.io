@@ -10,7 +10,7 @@ related_publications: false
 
 We ran three machine-learning atmosphere emulators under a +4 K uniform sea surface temperature (SST) perturbation and compared how the near-surface air temperature responds across the globe.
 
-The three emulators are [LUCIE](https://arxiv.org/abs/2405.16245), an SFNO-based model trained on ERA5 reanalysis data; [ACE2-ERA5](https://arxiv.org/abs/2411.11268), a transformer-based model trained on ERA5; and [NeuralGCM](https://www.nature.com/articles/s41586-024-07744-y), a hybrid dynamical-core / learned-physics model based on ERA5. While the global temperature fields in the +4K run appear similar across emulators, the differences become prominent when we subtract the control from the warmed fields.
+The three emulators are [LUCIE](https://arxiv.org/abs/2509.02061), an SFNO-based model trained on ERA5 reanalysis data; [ACE2-ERA5](https://arxiv.org/abs/2411.11268), a transformer-based model trained on ERA5; and [NeuralGCM](https://www.nature.com/articles/s41586-024-07744-y), a hybrid dynamical-core / learned-physics model based on ERA5. While the global temperature fields in the +4K run appear similar across emulators, the differences become prominent when we subtract the control from the warmed fields.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
