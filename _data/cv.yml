@@ -6,12 +6,12 @@
     - name: Location
       value: Santa Cruz, CA
     - name: Email
-      value: pulkit.kumar.dubey@gmail.com
+      value: pudubey@ucsc.edu
 
 - title: Summary
   type: list
   contents:
-    - PhD in Applied Mathematics with focus on numerical simulations, optimization and machine learning. Experienced with development in Python, Julia, and C++ in HPC environments. Familiar with climate emulators (NeuralGCM, LUCIE, ACE2-ERA5) and differentiable physics frameworks. Strong background in fluid dynamics, turbulence, and reduced-order modeling.
+    - PhD in Applied Mathematics with expertise in turbulence simulation, machine learning, and optimization. Developed high-performance simulations in Python using MPI, CUDA, and PyTorch for scalable computing over HPC clusters. Currently implementing nonlinear control in climate emulators (NeuralGCM, ACE2) using JAX and PyTorch. Cross-functional communication evidenced by collaborative publications and presentations at major conferences.
 
 - title: Education
   type: time_table
@@ -22,7 +22,6 @@
       description:
         - "Research: DNS and reduced-order modeling of variable-viscosity turbulence; hybrid ML solvers for 2D turbulence."
         - "Advisor: Greg Chini."
-        - "Coursework: Numerical Methods, High Performance Computing, Dynamical Systems."
     - title: M.S. (Engg.), Engineering Mechanics and Applied Mathematics
       institution: Jawaharlal Nehru Centre for Advanced Scientific Research, Bangalore, India
       year: 2019
@@ -37,7 +36,7 @@
       institution: University of California, Santa Cruz
       year: 2025 - Present
       description:
-        - Optimal control of chaotic systems using differentiable neural emulators. Developing gradient-based optimization pipelines in PyTorch and JAX on top of ML weather emulators (LUCIE, NeuralGCM, ACE2-ERA5), with Backpropagation-Through-Time and gradient checkpointing for long-horizon optimization on HPC.
+        - Optimal control of chaotic systems using differentiable neural emulators. Developed gradient-based optimization pipelines in PyTorch and JAX, using state-of-the-art ML weather emulators (LUCIE, NeuralGCM, ACE2-ERA5) as differentiable surrogate models for atmospheric control. Implemented gradient-based optimization via automatic differentiation, alongside gradient-free methods such as reinforcement learning, for control of long-horizon targets in chaotic dynamical systems.
         - ML data infrastructure and emulator training for climate applications. Built end-to-end pipelines for ERA5 reanalysis data; trained and fine-tuned an SFNO-based neural weather model, extending its variable set and validating checkpoint quality against held-out fields.
 
     - title: Doctoral Researcher
