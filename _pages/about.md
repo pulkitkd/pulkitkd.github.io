@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I am Pulkit, [postdoc at UCSC](https://campusdirectory.ucsc.edu/cd_detail?uid=pudubey). I utilize techniques from applied mathematics and machine learning towards problems in turbulence and atmospheric dynamics. My work spans rotating flows, surface tension driven instabilities, orientation dynamics of spheroids and wall-bounded turbulence... 
+I am Pulkit Dubey, a [postdoc in the Department of Applied Mathematics at UC Santa Cruz](https://campusdirectory.ucsc.edu/cd_detail?uid=pudubey). I earned my PhD at the University of New Hampshire on the simulation and modeling of turbulent flows, where I developed hybrid solvers for 2D turbulence. I joined UCSC in September 2025, where I work on control strategies for neural climate emulators, enabling long-horizon control over statistical targets in chaotic dynamical systems.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
