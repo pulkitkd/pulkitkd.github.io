@@ -1,0 +1,13 @@
+{% comment %}
+  Theme-aware figure: shows assets/img/<dir>/<stem>_light.png in light mode and
+  <stem>_dark.png in dark mode. Needs the .theme-fig-* CSS rules in _sass/_base.scss.
+  Usage: {% include theme_figure.liquid dir="rhc_web" stem="fig2a_timeseries" title="..." %}
+{% endcomment %}
+{% capture light_path %}assets/img/{{ include.dir }}/{{ include.stem }}_light.png{% endcapture %}
+{% capture dark_path %}assets/img/{{ include.dir }}/{{ include.stem }}_dark.png{% endcapture %}
+<div class="theme-fig-light">
+  {% include figure.liquid path=light_path title=include.title class="img-fluid rounded w-100" %}
+</div>
+<div class="theme-fig-dark">
+  {% include figure.liquid path=dark_path title=include.title class="img-fluid rounded w-100" %}
+</div>

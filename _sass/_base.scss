@@ -1118,3 +1118,23 @@ swiper-container {
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
+
+// Theme-aware figures (_includes/theme_figure.liquid)
+.theme-fig-dark {
+  display: none;
+}
+html[data-theme="dark"] {
+  .theme-fig-light {
+    display: none;
+  }
+  .theme-fig-dark {
+    display: block;
+  }
+}
+
+// Bold text inside tip/warning blockquotes keeps the block's text color (readable in dark mode)
+blockquote.block-tip p strong,
+blockquote.block-warning p strong,
+blockquote.block-danger p strong {
+  color: inherit;
+}
