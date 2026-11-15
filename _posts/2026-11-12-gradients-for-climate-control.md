@@ -33,13 +33,13 @@ Here we probe both, for one actuator and three targets.
 - **Gradients.** Backpropagated $$dJ/ds$$ at every 5th point, compared with finite-difference (FD) chords of width $$D = 0.025$$ and $$D = 0.25$$ taken from the sweep.
 - **Ensemble.** 5 members, started on 1 July of 5 different years. Curves show the 5-member mean.
 
-How to read each figure: one row per horizon. The left panel is the sweep $$J(s)$$ with the backpropagated tangents drawn on it; the middle and right panels compare the backpropagated slope (line) with FD chords (dots). A usable gradient has tangents that follow $$J(s)$$ and a slope that agrees with the wide chords.
+How to read each figure: one row per horizon, shown for 8, 32 and 64 days. The left panel is the sweep $$J(s)$$ with the backpropagated tangents drawn on it; the middle and right panels compare the backpropagated slope (line) with FD chords (dots). A usable gradient has tangents that follow $$J(s)$$ and a slope that agrees with the wide chords.
 
 ## Good gradients: global-mean SST
 
 {% include theme_figure.liquid dir="grad_web" stem="fig1_sst_global_slice" title="Global-mean SST vs ocean cloud albedo" %}
 <div class="caption">
-    Global-mean SST, 1×CO₂ control climate, 5-member mean. Rows: horizon H. Left: J(s) − J(0) with backpropagated tangents. Middle, right: backpropagated dJ/ds vs FD chords of width 0.025 and 0.25.
+    Global-mean SST, 1×CO₂ control climate, 5-member mean. Rows: horizon H = 8, 32, 64 d. Left: J(s) − J(0) with backpropagated tangents. Middle, right: backpropagated dJ/ds vs FD chords of width 0.025 and 0.25.
 </div>
 
 - $$J(s)$$ is a clean straight line, and the tangents lie on it through 32 days.
@@ -57,7 +57,7 @@ How to read each figure: one row per horizon. The left panel is the sweep $$J(s)
     Mean-square error of the land T2m map against the 1×CO₂ control run, 4×CO₂ climate, 5-member mean. Same layout.
 </div>
 
-- $$J(s)$$ is already jagged at **4 days**: the land temperature map carries weather noise that a 0.025 step cannot beat.
+- $$J(s)$$ is already jagged at **8 days** (and at 4 days, not shown): the land temperature map carries weather noise that a 0.025 step cannot beat.
 - Chord / backprop is 0.92 and 0.82 at 4 and 8 days, and 1.4–1.7 at 16–32 days, where the narrow and wide chords also disagree with each other.
 - At 64 days backprop is off by more than an order of magnitude (−24.5 vs −1.6 K² per unit albedo).
 
@@ -102,6 +102,20 @@ Member-median step SNR at $$\Delta s = 0.1$$:
 - **Land T2m error** is just above 1 at 4–8 days and drops tenfold below 1 from 16 days on.
 - **Land precipitation error** stays below 1 at every horizon: one albedo step of 0.1 predicts a change smaller than the noise of a single run.
 - The 64-day values are not real: there backprop disagrees with the finite differences for all three targets.
+
+## Signal and noise separately
+
+The step SNR can fall because the signal shrinks or because the noise grows. Splitting the two shows which. Here the **signal** is how much $$J$$ changes across the whole sweep, $$s$$ from 0 to 0.5, and the **noise** is the jitter $$\sigma_J$$. This uses the 4×CO₂ runs, with the SST mean-square error (ice-free ocean) in place of global-mean SST.
+
+{% include theme_figure.liquid dir="grad_web" stem="fig5_signal_noise" title="Signal and noise vs horizon" %}
+<div class="caption">
+    Signal: drop of the 5-member-mean J over the full sweep (solid) and as predicted by backprop (dashed). Noise: jitter of J about a straight line, members (small squares) and median (line). 4×CO₂ climate. Shaded: 64 days, where backprop disagrees with FD.
+</div>
+
+- **SST error**: the signal grows with horizon and stays **100–370× the noise** through 32 days.
+- **Land T2m error**: signal and noise are within 10× at 4–8 days; the noise then grows **40×** by 32 days while the signal grows 5×, and they meet.
+- **Land precip error**: the signal stays flat near 0.1–0.2 (mm/day)² at every horizon, only **1–2× the noise**. Precipitation responds too little to brighter ocean clouds to stand out from the weather.
+- Longer horizons do not rescue a noisy target: the noise grows with horizon at least as fast as the signal.
 
 ## Takeaways
 
